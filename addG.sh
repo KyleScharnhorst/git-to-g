@@ -17,7 +17,7 @@
 GIT_PATH=`which git.exe`
 GIT_DIR=$(dirname ${GIT_PATH})
 G_PATH=$GIT_DIR/g.exe
-COMPLETION_PATH=/mingw32/share/git/completion/git-completion.bash
+COMPLETION_PATH=/mingw64/share/git/completion/git-completion.bash
 G_COMPLETE_STR="__git_complete g __git_main"
 GIT_COMPLETE_STR="__git_complete git __git_main"
 GEXE_COMPLETE_STR="__git_complete g.exe __git_main"
